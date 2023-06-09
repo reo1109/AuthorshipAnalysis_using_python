@@ -8,4 +8,5 @@ s1280121 Haruto Ara
 s1280114 Reo Nomura  
 
 We signed up for a paid plan (100$) for Twitter API so I can get tweets up to the limit (10000 tweets/month).  
-The API itself is hidden, so this code cannot be executed as is.
+The API itself is hidden, so this code cannot be executed as is.  
+In order to avoid showing APIKey in the submitted video, we run a different file when executing it than the one shown on the screen.

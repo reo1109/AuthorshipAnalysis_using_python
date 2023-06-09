@@ -15,6 +15,7 @@ import nltk
 # Use "tweepy" to simplify the use of the API.
 # Environment variables must be defined in the ".env" file.
 ###
+
 def setup_twitter_api():
     load_dotenv()
 
@@ -84,7 +85,7 @@ class AuthorshipVerifier:
                     pagination_token = tweets.meta["next_token"]
                 except KeyError:
                     break
-
+#2
     def divide_questioned_texts_and_known_texts(self):
         for author_name in self.author_names:
             tweet_texts = self.tweet_texts_by_author[author_name]
